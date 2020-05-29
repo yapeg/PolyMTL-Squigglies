@@ -2,7 +2,7 @@
 global Rc SR Uc Ay lambda
 SR = 1.15; FR = 0.3; LR = 4;                                                      % Speed, frequency and length ratios
 
-fc = 1; Rc = 1; Uc = 2*pi*fc*Rc;                                                  % Steady coiling frequency, radius and speed
+fc = 1; Rc = 1; Uc = 2*pi*fc*Rc;                                                  % Steady coiling frequency, radius and extruding speed
 Vp = Uc/SR;                                                                       % Belt speed
 
 %% ---------------------------------------------------- NO FORCING PART (0) -----------------------------------------------------------------------------------------------------
